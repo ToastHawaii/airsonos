@@ -3,7 +3,7 @@
   "version": "0.2.6",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes to Sonos devices",
-  "main": "./bin/index.js",
+  "main": "./lib/index.js",
   "contributors": [
     {
       "name": "Stephen Wan",
@@ -15,7 +15,6 @@
     "test": "jscs .",
     "prepublish": "babel ./lib/ -d ./bin/"
   },
-  "bin": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ToastHawaii/airsonos.git"
