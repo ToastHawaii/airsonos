@@ -15,6 +15,7 @@
     "prepublish": "babel ./lib/ -d ./bin/"
   },
   "bin": "./bin/index.js",
+  "main": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen/airsonos.git"
